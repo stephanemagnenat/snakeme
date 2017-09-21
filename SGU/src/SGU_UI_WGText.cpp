@@ -26,7 +26,7 @@
 #include <string.h>
 
 // Text Edit
-CUITextEdit::CUITextEdit(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, char *s,bool readonly)
+CUITextEdit::CUITextEdit(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, const char *s,bool readonly)
 {
 	x=ix;
 	y=iy;
@@ -209,7 +209,7 @@ bool CUITextEdit::SendMessage(int message, ssize_t p1, ssize_t p2, SDL_Surface *
 }
 
 
-void CUITextEdit::SetText(char *s)
+void CUITextEdit::SetText(const char *s)
 {
 	strcpy(text,s);
 	textcount=strlen(text);

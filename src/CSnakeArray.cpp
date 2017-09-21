@@ -57,7 +57,7 @@ void CSnakeArray::ClearArray(void)
 }
 
 	
-bool CSnakeArray::Load(char *filename,SDL_Surface *si)
+bool CSnakeArray::Load(const char *filename,SDL_Surface *si)
 {
 	FILE *fp;
 	int x,y;
@@ -82,7 +82,7 @@ bool CSnakeArray::Load(char *filename,SDL_Surface *si)
 	}
 }
 
-bool CSnakeArray::Save(char *filename)
+bool CSnakeArray::Save(const char *filename)
 {
 	FILE *fp;
 	int x,y;

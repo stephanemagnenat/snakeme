@@ -68,11 +68,13 @@ typedef enum
 
 EGameState GameState,ReturnScreen;
 
-enum
+typedef enum
 {
 	FIRSTDRAW,
 	LIGHTREDRAW
-} DrawState;
+} EDrawState;
+
+EDrawState DrawState;
 
 SUIRedraw UIRedraw;
 SButtonMap PlayerButtons[2];
@@ -515,7 +517,7 @@ void SetControlButtonsNames(void)
 	((CUINormalButton *)(ControlMenu->objects[16]))->SetCaption(SDL_GetKeyName(PlayerButtons[1].Uaction));
 }
 
-char *playerdefaultname[8]={ "Player 1",
+const char *playerdefaultname[8]={ "Player 1",
 							"Player 2",
 							"Player 3",
 							"Player 4",
@@ -1399,7 +1401,7 @@ void SnakeMeDraw(void)
 
 };
 
-inline void UpdateIntroAnim(int step,char *text,SGU_RegionSaver *reg)
+inline void UpdateIntroAnim(int step,const char *text,SGU_RegionSaver *reg)
 {
 	reg->RestaurRegion(ScrInfo);
 	SGU_FillRectAlpha(ScrInfo,70,350,500,30,SGU_RGB(0,0,128,128));

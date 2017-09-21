@@ -26,7 +26,7 @@
 #include <string.h>
 
 // Normal Button
-CUINormalButton::CUINormalButton(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, char *s,bool cnt)
+CUINormalButton::CUINormalButton(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, const char *s,bool cnt)
 {
 	x=ix;
 	y=iy;

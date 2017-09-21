@@ -188,14 +188,14 @@ private:
 class CUIBoolChooser:public CUIObject
 {
 public:
-	CUIBoolChooser(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, char *s) {x=ix; y=iy; w=iw; h=ih; theme=ithm; font=ifnt; caption=s; state=false; }
+	CUIBoolChooser(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, const char *s) {x=ix; y=iy; w=iw; h=ih; theme=ithm; font=ifnt; caption=s; state=false; }
 	bool SendMessage(int message,ssize_t p1, ssize_t p2, SDL_Surface *si);
 	bool GetState(void) { return state; }
 	void SetState(bool ns) {  state=ns; }
 private:
 	bool state;
 	SGU_Sprite *font;
-	char *caption;
+	const char *caption;
 };
 /*
 class CUIIntChooser:public CUIObject

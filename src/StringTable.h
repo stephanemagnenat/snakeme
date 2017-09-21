@@ -20,8 +20,8 @@ public:
 	StringTable();
 	~StringTable();
 	void SetLang(int l) { actlang=l; }
-	bool Load(char *filename);
-	char *GetString(char *stringname);
+	bool Load(const char *filename);
+	const char *GetString(const char *stringname);
 private:
 	int actlang;
 	int numberoflanguages;

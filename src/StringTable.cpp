@@ -56,7 +56,7 @@ StringTable::~StringTable()
 
 */
 
-bool StringTable::Load(char *filename)
+bool StringTable::Load(const char *filename)
 {
 	FILE *fp;
 	char temp[1024];
@@ -112,7 +112,7 @@ bool StringTable::Load(char *filename)
 }
 
 
-char *StringTable::GetString(char *stringname)
+const char *StringTable::GetString(const char *stringname)
 {
 	if (actlang<numberoflanguages)
 	{

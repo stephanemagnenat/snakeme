@@ -44,16 +44,16 @@ protected:
 class CUISDBOpenFile:public CUISDBTemplate
 {
 public:
-	CUISDBOpenFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel);
+	CUISDBOpenFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,const char *title, const char *ok, const char *cancel);
 	~CUISDBOpenFile();
 	void FullDraw(SDL_Surface *si);
 	bool SendMessage(SDL_Event ev,SDL_Surface *si);
-	void ScanDir(char *filespec);
+	void ScanDir(const char *filespec);
 	char *GetFileName(void);
 public:
-	char *titletext;
-	char *oktext;
-	char *canceltext;
+	const char *titletext;
+	const char *oktext;
+	const char *canceltext;
 private:
 	List *filenames;
 	int elclick;
@@ -62,24 +62,24 @@ private:
 class CUISDBSaveFile:public CUISDBTemplate
 {
 public:
-	CUISDBSaveFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel);
+	CUISDBSaveFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,const char *title, const char *ok, const char *cancel);
 	~CUISDBSaveFile();
 	void FullDraw(SDL_Surface *si);
 	bool SendMessage(SDL_Event ev,SDL_Surface *si);
-	void ScanDir(char *filespec);
+	void ScanDir(const char *filespec);
 	char *GetFileName(void);
 	bool GetState(void) { return isok; }
 public:
-	char *titletext;
-	char *oktext;
-	char *canceltext;
+	const char *titletext;
+	const char *oktext;
+	const char *canceltext;
 private:
 	bool isok;
 	List *filenames;
 };
 
 // Function for easy access
-bool SGU_OpenFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel,char *filename,char *filespec);
-bool SGU_SaveFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel,char *filename,char *filespec);
+bool SGU_OpenFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,const char *title, const char *ok, const char *cancel, char *filename, const char *filespec);
+bool SGU_SaveFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,const char *title, const char *ok, const char *cancel, char *filename, const char *filespec);
 
 #endif

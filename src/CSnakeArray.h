@@ -20,8 +20,8 @@ public:
 	~CSnakeArray(); 
 	void ClearArray(void);
 	void SetYStartPos(int y) { ystartpos=y; }
-	bool Load(char *filename,SDL_Surface *si);
-	bool Save(char *filename);
+	bool Load(const char *filename,SDL_Surface *si);
+	bool Save(const char *filename);
 	void SetThemeSprite(SGU_Sprite *s) { sprite=s; }
 	void FullBackgroundDraw(SDL_Surface *si);
 	void SingleBackgroundPosDraw(int x,int y,SDL_Surface *si);

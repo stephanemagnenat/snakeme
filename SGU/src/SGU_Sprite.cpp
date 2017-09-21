@@ -33,7 +33,7 @@
 	We load a sprite from filename.
 	The sprite format is the one used with MUANG, Urbanit and MGA
 	*/
-bool SGU_Sprite::Load(char *filename,SDL_PixelFormat *pxlformat)
+bool SGU_Sprite::Load(const char *filename,SDL_PixelFormat *pxlformat)
 {
 	FILE *fp;
 	Uint32 *ptr;

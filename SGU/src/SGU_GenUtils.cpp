@@ -211,7 +211,7 @@ void SGU_VertLine(SDL_Surface *surface,Sint16 x,Sint16 y,Sint16 l,SGU_RGBA c)
 }
 
 
-void SGU_DisplayText(SDL_Surface *surface,SGU_Sprite *font,int x,int y,char *s)
+void SGU_DisplayText(SDL_Surface *surface,SGU_Sprite *font,int x,int y,const char *s)
 {
 	int n=0;
 	int pos=x;
@@ -226,13 +226,13 @@ void SGU_DisplayText(SDL_Surface *surface,SGU_Sprite *font,int x,int y,char *s)
 	}
 }
 
-void SGU_DisplayTextCenter(SDL_Surface *surface,SGU_Sprite *font,int x,int y,int w,char *s)
+void SGU_DisplayTextCenter(SDL_Surface *surface,SGU_Sprite *font,int x,int y,int w,const char *s)
 {
 	int dec=(w-SGU_GetTextWidth(font,s))>>1;
 	SGU_DisplayText(surface,font,x+dec,y,s);
 }
 
-int SGU_GetTextWidth(SGU_Sprite *font,char *s)
+int SGU_GetTextWidth(SGU_Sprite *font,const char *s)
 {
 	int l=0;
 	for (int i=0;i<(int)strlen(s);i++)
@@ -834,7 +834,7 @@ bool SGU_RegionSaver::RestaurRegion(SDL_Surface *surface)
 }
 
 	/// Directory Listing
-SGU_DirLister::SGU_DirLister(char *ext)
+SGU_DirLister::SGU_DirLister(const char *ext)
 {
 #ifdef WIN32
 	first=true;

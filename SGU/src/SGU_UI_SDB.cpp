@@ -37,7 +37,7 @@ CUISDBTemplate::CUISDBTemplate(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_S
 	font=ifnt;
 }
 
-CUISDBOpenFile::CUISDBOpenFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel):CUISDBTemplate(ix,iy,iw,ih,ithm,ifnt)
+CUISDBOpenFile::CUISDBOpenFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,const char *title, const char *ok, const char *cancel):CUISDBTemplate(ix,iy,iw,ih,ithm,ifnt)
 {
 	elclick=-1;
 	filenames=new List;
@@ -96,7 +96,7 @@ bool CUISDBOpenFile::SendMessage(SDL_Event ev,SDL_Surface *si)
 	return false;
 }
 
-void CUISDBOpenFile::ScanDir(char *filespec)
+void CUISDBOpenFile::ScanDir(const char *filespec)
 {
 	char *tempname;
 	char *stemp;
@@ -128,7 +128,7 @@ char *CUISDBOpenFile::GetFileName(void)
 	}
 }
 
-CUISDBSaveFile::CUISDBSaveFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel):CUISDBTemplate(ix,iy,iw,ih,ithm,ifnt)
+CUISDBSaveFile::CUISDBSaveFile(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,const char *title, const char *ok, const char *cancel):CUISDBTemplate(ix,iy,iw,ih,ithm,ifnt)
 {
 	filenames=new List;
 	titletext=title;
@@ -198,7 +198,7 @@ bool CUISDBSaveFile::SendMessage(SDL_Event ev,SDL_Surface *si)
 	return false;
 }
 
-void CUISDBSaveFile::ScanDir(char *filespec)
+void CUISDBSaveFile::ScanDir(const char *filespec)
 {
 	char *tempname;
 	char *stemp;
@@ -223,7 +223,7 @@ char *CUISDBSaveFile::GetFileName(void)
 	return ((CUITextEdit *)(screen->objects[1]))->GetText();
 }
 
-bool SGU_OpenFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel,char *filename,char *filespec)
+bool SGU_OpenFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,const char *title, const char *ok, const char *cancel, char *filename, const char *filespec)
 {
 	SDL_Event ev;
 	SDL_Rect rect;
@@ -265,7 +265,7 @@ bool SGU_OpenFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *it
 	return false;
 }
 
-bool SGU_SaveFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt,char *title, char *ok, char *cancel,char *filename,char *filespec)
+bool SGU_SaveFileDialog(SDL_Surface *si,int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, const char *title, const char *ok, const char *cancel, char *filename, const char *filespec)
 {
 	SDL_Event ev;
 	SDL_Rect rect;

@@ -38,7 +38,7 @@ void CUIFileLister::DeleteListContent(void)
 	}
 }
 
-void CUIFileLister::Scan(char *iext)
+void CUIFileLister::Scan(const char *iext)
 {
 	// delete previous content
 	for(ListNode *c=strings.GetHead();c;c=c->Next)
@@ -113,7 +113,7 @@ void CUIFileChooser::DeleteListContent(void)
 	}
 }
 
-void CUIFileChooser::Scan(char *iext)
+void CUIFileChooser::Scan(const char *iext)
 {
 	// delete previous content
 	for(ListNode *c=strings.GetHead();c;c=c->Next)

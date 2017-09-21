@@ -29,10 +29,10 @@
 class CUITextEdit:public CUIObject
 {
 public:
-	CUITextEdit(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, char *s,bool readonly);
+	CUITextEdit(int ix,int iy, int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, const char *s, bool readonly);
 	bool SendMessage(int message,ssize_t p1,ssize_t p2,SDL_Surface *si);
 	char *GetText(void) { text[textcount]=0; return text; }
-	void SetText(char *s);
+	void SetText(const char *s);
 public:
 	char text[256];
 	bool needredraw;

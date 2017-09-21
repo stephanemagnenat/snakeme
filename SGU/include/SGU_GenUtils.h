@@ -66,13 +66,13 @@ void SGU_HorzLine(SDL_Surface *surface,Sint16 x,Sint16 y,Sint16 l,SGU_RGBA c);
 void SGU_VertLine(SDL_Surface *surface,Sint16 x,Sint16 y,Sint16 l,SGU_RGBA c);
 
 	/// Display a string using an Sprite as font
-void SGU_DisplayText(SDL_Surface *surface,SGU_Sprite *font,int x,int y,char *s);
+void SGU_DisplayText(SDL_Surface *surface,SGU_Sprite *font,int x,int y,const char *s);
 
 	/// Display a string using an Sprite as font and centered
-void SGU_DisplayTextCenter(SDL_Surface *surface,SGU_Sprite *font,int x,int y,int w,char *s);
+void SGU_DisplayTextCenter(SDL_Surface *surface,SGU_Sprite *font,int x,int y,int w,const char *s);
 
 	/// Give the length of a given string using font
-int SGU_GetTextWidth(SGU_Sprite *font,char *s);
+int SGU_GetTextWidth(SGU_Sprite *font,const char *s);
 
 	/// Draw a line
 void SGU_Line(SDL_Surface *surface,int x1,int y1,int x2,int y2,SGU_RGBA c);
@@ -116,7 +116,7 @@ private:
 class SGU_DirLister
 {
 public:
-	SGU_DirLister(char *ext);
+	SGU_DirLister(const char *ext);
 	~SGU_DirLister();
 	/// Get Next name, return NULL if ended
 	char *GetNextName();

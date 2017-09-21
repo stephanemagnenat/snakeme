@@ -39,7 +39,7 @@ private:
 	void DisplayListElement(int eln,int x,int y,SDL_Surface *si);
 public:
 	char *GetSelectedFile() { return (char *)strings.GetElementN(GetSelectedElement()); }
-	void Scan(char *iext);
+	void Scan(const char *iext);
 	void Add(char *fn) { strings.AddElement(fn); ResetNbEl(strings.GetNbElement()); }
 private:
 	char ext[16];
@@ -65,7 +65,7 @@ private:
 	bool SendChildMessage(int message,ssize_t p1, ssize_t p2, SDL_Surface *si);
 public:
 	char *GetSelectedFile() { return (char *)strings.GetElementN(GetVal()); }
-	void Scan(char *iext);
+	void Scan(const char *iext);
 	void Add(char *fn) { strings.AddElement(fn); ResetInterval(0,strings.GetNbElement()-1); }
 private:
 	bool hideext;

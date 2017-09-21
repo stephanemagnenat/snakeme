@@ -66,7 +66,7 @@ public:
 	SGU_Sprite() { NbFrames=0; frames=NULL; }
 	~SGU_Sprite() { FreeFrames(); }
 		/// This methode load a sprite (*.spr) from the disk
-	bool Load(char *filename,SDL_PixelFormat *pxlformat);
+	bool Load(const char *filename,SDL_PixelFormat *pxlformat);
 		/// This methode display a sprite on a given SDL_Surface
 	bool Display(SDL_Surface *dest,Sint16  x,Sint16  y,Uint32 f);
 		/// This methode display a sprite on a given SDL_Surface with alpha

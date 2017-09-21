@@ -29,12 +29,12 @@
 class CUINormalButton:public CUIObject
 {
 public:
-	CUINormalButton(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, char *s,bool cnt);
+	CUINormalButton(int ix,int iy,int iw,int ih,CUITheme *ithm,SGU_Sprite *ifnt, const char *s,bool cnt);
 	void SetCaption(char *s);
 	bool SendMessage(int message,ssize_t p1, ssize_t p2, SDL_Surface *si);
 public:
 	SGU_Sprite *font;
-	char *caption;
+	const char *caption;
 	int dx;
 	bool centered;
 };
