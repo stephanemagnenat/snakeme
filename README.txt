@@ -1,7 +1,7 @@
 SnakeMe version 1.0 GPL Release Source Code
 ===========================================
 
-Copyright 2000 Cecile Grivaz, Stephane Magnenat, Lynda Metref, Gabriel Walt.
+Copyright 2000 Cécile Grivaz, Stéphane Magnenat, Lynda Metref, Gabriel Walt.
 All rights reserved.
 
 All source code and original graphic is included.

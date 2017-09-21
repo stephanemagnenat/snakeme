@@ -8,8 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
-
 CSnakeArray::CSnakeArray()
 {
 	ClearArray();
@@ -72,7 +70,7 @@ bool CSnakeArray::Load(char *filename,SDL_Surface *si)
 		{
 			for (y=0;y<SNAKEARRAYH;y++)
 			{
-				fscanf(fp,"%d\n",&(obstaclearray[x][y]));
+				fscanf(fp,"%ld\n",&(obstaclearray[x][y]));
 			}
 		}
 		fclose(fp);
@@ -97,7 +95,7 @@ bool CSnakeArray::Save(char *filename)
 		{
 			for (y=0;y<SNAKEARRAYH;y++)
 			{
-				fprintf(fp,"%d\n",obstaclearray[x][y]);
+				fprintf(fp,"%ld\n",obstaclearray[x][y]);
 			}
 		}
 		fclose(fp);

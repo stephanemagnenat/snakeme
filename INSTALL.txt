@@ -13,7 +13,12 @@ INSTALL
 
 - First install SDL and SDL_mixer, refer to the SDL doc on how to do it.
 - Install CMake and a proper build environment
-- Use CMake to build the top-level CMakeLists.txt
+- Use CMake to build the top-level CMakeLists.txt, for instance on Unix:
+  mkdir build
+  cd build
+  cmake ..
+  make
+- Place the snakeme binary inside the snakeme/ directory, and launch it from there.
 
 Stephane Magnenat
 http://stephane.magnenat.net
