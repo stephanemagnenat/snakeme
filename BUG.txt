@@ -1,0 +1,1 @@
+* OpenFile Dialog Box hasn't scrollbar when there is one string that can be shown in list.

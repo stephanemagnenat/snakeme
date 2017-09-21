@@ -1,0 +1,2 @@
+#define __FBUILDNUMBER 100
+#define __FBUILDTIME "Mon Aug 21 15:35:30 2000"

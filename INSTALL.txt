@@ -1,0 +1,19 @@
+Installing SnakeMe
+==================
+
+DEPENDENCY
+
+To Compile and install SnakeMe, you will need the following libs :
+- SDL > 1.1.4 (get it on http://www.libsdl.org)
+- SDL_Mixer (get it on http://www.libsdl.org)
+- CMake (https://cmake.org/)
+- SGU (included)
+
+INSTALL
+
+- First install SDL and SDL_mixer, refer to the SDL doc on how to do it.
+- Install CMake and a proper build environment
+- Use CMake to build the top-level CMakeLists.txt
+
+Stephane Magnenat
+http://stephane.magnenat.net

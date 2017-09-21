@@ -1,0 +1,246 @@
+3
+61
+[_LANG]
+English
+Francais
+Deutsch
+[SNAKEME]
+SnakeMe
+SnakeMe
+SnakeMe
+[GAME]
+Game
+Jeu
+Spiel
+[CONTROLS]
+Controls
+Controles
+Tastenbelegung
+[ADS]
+Advanced Setup
+Options avancees
+erweit. Einstellungen
+[LVLED]
+Level Editor
+Editeur de niveau
+LevelEditor
+[QUIT]
+Quit
+Quitter
+Beenden
+[CANCEL]
+Cancel
+Annuler
+Abbruch
+[DEFAULT]
+Default
+Defaut
+Fehlwerte
+[SAVE]
+Save
+Sauver
+Sichern
+[LOAD]
+Load
+Charger
+Laden
+[PLAY]
+Play
+Jouer
+Spielen
+[RESGM]
+Resume Game
+Retour au Jeu
+Spiel fortsetzen
+[QUITGM]
+Quit Game
+Quitter le jeu
+Spiel beenden
+[WINNER]
+is the Winner !
+est le gagnant !
+ist der Gewinner!
+[PRESSENTER]
+Press enter to continue
+Appuyer sur entree pour continuer
+Bitte Enter druecken
+[GMMENU1]
+Game
+Preparation
+Spiel
+[GMMENU2]
+Setup
+au Jeu
+Einstellungen
+[PRESSKEY]
+Press a key !
+Appuyer sur une touche
+Bitte eine Taste druecken!
+[PLAYER1]
+Player A
+Joueur A
+Spieler A
+[PLAYER2]
+Player B
+Joueur B
+Spieler B
+[ABSLEFT]
+Absolute Left
+Gauche - absolu
+absolut links
+[ABSRIGHT]
+Absolute Right
+Droite - absolu
+absolut rechts
+[ABSUP]
+Absolute Up
+Haut - absolu
+absolut hoch
+[ABSDOWN]
+Absolute Down
+Bas - absolu
+absolut runter
+[RELLEFT]
+Relative Left
+Gauche - relatif
+relativ links
+[RELRIGHT]
+Relative Right
+Droite - relatif
+relativ rechts
+[ACTION]
+Action !
+Action
+Aktion
+[GMSPEED]
+Game Speed
+Vitesse du jeu
+Spielgeschwindigkeit
+[DEFSL]
+Default Snake Length
+Longueur du serpent par defaut
+Startlaenge der Schlange
+[INCSL]
+Increase snake length
+Longueur d'alongement du serpent
+Verlaengerung der Schlange
+[NBMEAL]
+Number of meal
+Nombre de nourriture
+Anzahl Essen
+[MEALCHGTIME]
+Meal change time
+Temps de changement de la nourriture
+Essen-Wechsel
+[NBBONUS]
+Number of fire bonus
+Nombre de bonus de tir
+Anzahl Feuer-Bonus
+[BONUSCHGTIME]
+Fire bonus change time
+Temps de changement des bonus
+Wechsel Feuer-Bonus
+[NBPTWIN]
+Number of point to win
+Nombre de point pour gagner
+erforder. Punkte zum Sieg
+[PTWINMEAL]
+Point got when snake eat meal
+Points gagnes quand on mange
+Punkte wenn Schlange isst
+[PTWINBLOC]
+Point got when snake hit
+Points gagnes quand on bloque
+Punkte wenn Schlange getroffen
+[PTWINFIRE]
+Point got when another snake crash into
+Points gagnes quand on tire
+Punkte wenn andere Schlange getroffen
+[PTLOSECRASH]
+Point lost when crashed
+Points perdu quand on s'ecrase
+Punktabzug beim Crash
+[PTLOSTHIT]
+Point lost when hitten
+Points perdu quand on est touche
+Punktabzug wenn Schlange getroffen wird
+[EXIT]
+Exit
+Sortir
+Ende
+[NEW]
+New
+Nouveau
+Neu
+[THEME]
+Theme
+Theme
+Thema
+[UNDO]
+Undo
+Annuler
+zuruecknehmen
+[LEEXIT]
+Quit the editor
+Quitte l'editeur de niveau
+Editor verlassen
+[LENEW]
+Begin a new blank level
+Commence un niveau vide
+Neuen Level erstellen
+[LELOAD]
+Load a level
+Charge un niveau
+Level laden
+[LESAVE]
+Save a level
+Enregistre un niveau
+Level sichern
+[LEPT]
+Draw a point
+Dessine un point
+Punkt zeichnen
+[LELN]
+Draw a line
+Dessine une ligne
+Linie zeichnen
+[LERECT]
+Draw a rectangle
+Dessine un rectangle
+Rechteck zeichnen
+[LEFILL]
+Fill a zone
+Remplir une zone
+Bereich fuellen
+[LESELBB]
+Select a background brush
+Prendre la couleur de fond
+Hintergrundfarbe setzen
+[LESELUW]
+Select an undestructable wall
+Prendre un mur indestructible
+nicht zerstoerbare Wand waehlen
+[LESELDW]
+Select an destructable wall
+Prendre un mur destructible
+Zerstoerbare Wand waehlen
+[LELT]
+Load a game theme
+Charger un theme
+Spielthema laden
+[LEUNDO]
+Cancel last changes
+Annule les dernieres modif.
+Letzte Aenderungen zuruecknehmen
+[LESAVEASK]
+File has changed since last save, resave ?
+Le fichier a change, reenregistrer ?
+Datei geaendert, erneut sichern?
+[LESAVEAY]
+Yes, save
+Oui, enregistrer
+Ja, sichern
+[LESAVEAN]
+No, exit anyway
+Non, quitter
+Nein, beenden

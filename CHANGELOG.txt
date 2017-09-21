@@ -1,0 +1,95 @@
+SnakeMe CHANGELOG
+=================
+
+- Changes from SnakeMe 1.0 to SnakeMe 1.0.1
+
+* Added German language in game (thanks beckers@st-oneline.de)
+* Added German language in manual (thanks Matti Mäkitalo, maeki@gmx.de)
+
+- Renamed build 80 to SnakeMe 1.0
+
+- Changes from build 79 to build 80 (RC2)
+
+* Sound volume fixed.
+* Control bug fixed.
+
+
+- Changes from build 78 to build 79 (RC1)
+
+* Sounds in game.
+
+
+- Changes from build 77 to build 78
+
+* Fixed snake chooser position.
+* Level editor default brush fixed.
+* Launching sequence fixed.
+* Linux support fixed.
+* Cursor fixed.
+* Final internationalisation ok.
+* Default nice values added.
+
+
+- Changes from build 76 to build 77
+
+* Joystick support added.
+* All Local Menu info auto-saved.
+* First Mac release, thanks Luc-Olivier.
+* Language selection on command line.
+
+
+- Changes from build 75 to build 76
+
+* Fixed dialog box extension auto-add bug.
+* Relative snake can use absolute on upcoming.
+* Meal superposition bug fixed.
+
+
+- Changes from build 74 to build 75
+
+* Music autoscan.
+* More Effect fixed.
+* Level editor release bug fixed.
+
+
+- Changes from build 73 to build 74
+
+* Many Effect fixed.
+* Translation to french in progress.
+* Internalisation code completed.
+* GNU GCC directory support added.
+* Unix makefile support added.
+
+
+- Changes from build 72 to build 73
+
+* Bool dialog mouse over fixed.
+* Effect implemented.
+* COP is now part of theme.
+* Undo has now text in Level editor.
+* Advanced Options cleaned.
+* Cleaned point computation.
+* Fixed Level Editor theme bug.
+* Switched to SDL 1.1.3.
+* Fixed 1 pixel display bug in Level Editor with tools rectangle and pen.
+* Undo in level editor implemented.
+* Cleaned some UI layout.
+* Config screens look unified.
+* Better key and key reorganisation in control setup.
+* At end of game, players sorted by points.
+* Name for default theme and level is displayed.
+
+
+- Changes from build 71 to build 72
+
+* SGU cleaned using multiplateform call for read dir, new class SGU_DirLister.
+* Display name in game cleaned.
+* Placement, needed 4 cases instead of 3 fixed.
+* Increment length ~ default length bug fixed.
+* Name load/save fixed.
+* Impossible snake creation infinite loop bug fixed.
+* Display name in game fixed.
+* Auto name and save name in local menu fixed.
+
+
+- SnakeMe Beta, build 71

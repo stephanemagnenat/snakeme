@@ -1,0 +1,7 @@
+0 : start: go _
+1 : eat meal bonus: slurp _
+2 : eat fire bonus: youpee _
+3: shoot: whistling _
+4: shoot in snake body: ouch _
+5: shoot in snake head: bang _
+6: crash against a wall: bang _

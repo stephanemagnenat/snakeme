@@ -1,0 +1,10 @@
+SnakeMe for Linux
+=================
+
+Latest info : multilanguage support.
+Command line for language :
+./snakeme -l0	English (default)
+./snakeme -l1	French
+./snakeme -l2	German
+
+Stephane Magnenat
