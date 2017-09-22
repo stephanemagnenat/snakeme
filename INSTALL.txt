@@ -3,7 +3,7 @@ Installing SnakeMe
 
 DEPENDENCY
 
-To Compile and install SnakeMe, you will need the following libs :
+To Compile and install SnakeMe, you will need the following libraries :
 - SDL > 1.1.4 (get it on http://www.libsdl.org)
 - SDL_Mixer (get it on http://www.libsdl.org)
 - CMake (https://cmake.org/)
@@ -12,7 +12,7 @@ To Compile and install SnakeMe, you will need the following libs :
 INSTALL
 
 - First install SDL and SDL_mixer, refer to the SDL doc on how to do it.
-- Install CMake and a proper build environment
+- Install CMake and a proper build environment.
 - Use CMake to build the top-level CMakeLists.txt, for instance on Unix:
   mkdir build
   cd build
