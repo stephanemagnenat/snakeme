@@ -14,14 +14,15 @@ Notes
 -----
 
 All source code and original graphics are included.
-More graphic can be downloaded at :
+More graphic can be downloaded at:
 http://stephane.magnenat.net/archives/snakeme/download.html
 
-Full game extension documentation is available at :
+Full game extension documentation is available at:
 http://stephane.magnenat.net/archives/snakeme/developers.html
 
 Source tree explanation :
 
+```
 makeprev/	Preview maker tool for generating miniatures for the web site
 SGU/		SnakeMe Graphics Utilities, support library under LGPL v.2
 src/		Main SnakeMe source
@@ -36,6 +37,7 @@ CMakeLists.txt	CMake build file
 SoundDOC.txt	Documentatino of sound effects with filename mapping
 LICENSE.txt	The GNU General Public License v.2 which applies
 		to the SnakeMe's source code, graphics and sounds.
+```
 
 If you want to compile SnakeMe, go on reading INSTALL.txt
 
