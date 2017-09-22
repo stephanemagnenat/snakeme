@@ -1295,7 +1295,7 @@ void SnakeMeDraw(void)
 				char buf[128];
 				//sprintf(buf,"SnakeMe Version 1.0, build %d",__FBUILDNUMBER);
 				//SGU_DisplayTextCenter(ScrInfo,littlefont,0,458,640,buf);
-				SGU_DisplayTextCenter(ScrInfo,littlefont,0,458,640,"SnakeMe Version 1.0.2");
+				SGU_DisplayTextCenter(ScrInfo,littlefont,0,458,640,"SnakeMe Version 1.0.3");
 				//SGU_DisplayTextCenter(ScrInfo,littlefont,0,468,640,__FBUILDTIME);
 
 				DrawState=LIGHTREDRAW;

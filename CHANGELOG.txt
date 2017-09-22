@@ -1,6 +1,16 @@
 SnakeMe CHANGELOG
 =================
 
+- Changes from SnakeMe 1.0.2 to SnakeMe 1.0.3
+
+* Switched build system to CMake.
+* Integrated SGU in the source tree and ported to git.
+* Fixed compilation on modern compilers and execution on 64 bits platforms.
+
+- Changes from SnakeMe 1.0.1 to SnakeMe 1.0.2
+
+* Minor bug fixes.
+
 - Changes from SnakeMe 1.0 to SnakeMe 1.0.1
 
 * Added German language in game (thanks beckers@st-oneline.de)
