@@ -1,26 +1,30 @@
-SnakeMe version 1.0 GPL Release Source Code
-===========================================
+SnakeMe
+=======
 
 Copyright 2000 Cécile Grivaz, Stéphane Magnenat, Lynda Metref, Gabriel Walt.
 All rights reserved.
+
+Preamble
+--------
 
 This is the source code of my vintage snake game, back from year 2000!
 I have corrected it so that it compiles without warnings with modern compilers and works on 64 bit platforms.
 Yet, the C++ dialect is antique and the whole thing very dirty.
 It is on github for the preservation of our common digital legacy.
 
+[Stéphane Magnenat](http://stephane.magnenat)
 
 Notes
 -----
 
 All source code and original graphics are included.
-More graphic can be downloaded at:
+More graphics and levels can be downloaded at
 http://stephane.magnenat.net/archives/snakeme/download.html
 
 Full game extension documentation is available at:
 http://stephane.magnenat.net/archives/snakeme/developers.html
 
-Source tree explanation :
+Source tree explanation:
 
 ```
 makeprev/	Preview maker tool for generating miniatures for the web site
@@ -40,6 +44,3 @@ LICENSE.txt	The GNU General Public License v.2 which applies
 ```
 
 If you want to compile SnakeMe, go on reading INSTALL.txt
-
-Stephane Magnenat
-http://stephane.magnenat.net
