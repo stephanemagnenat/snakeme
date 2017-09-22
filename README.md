@@ -12,7 +12,7 @@ I have corrected it so that it compiles without warnings with modern compilers a
 Yet, the C++ dialect is antique and the whole thing very dirty.
 It is on github for the preservation of our common digital legacy.
 
-[Stéphane Magnenat](http://stephane.magnenat)
+[Stéphane Magnenat](http://stephane.magnenat.net)
 
 Notes
 -----
